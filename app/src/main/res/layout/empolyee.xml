@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/m21">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="300dip"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/box"
+            android:backgroundTint="#8b866b"
+            android:paddingLeft="40dp"
+            android:text="Present"
+            android:textColor="#ffff"
+            android:onClick="True">
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="300dip"
+            android:layout_height="70dp"
+            android:layout_marginTop="140dp"
+
+            android:background="@drawable/box"
+            android:backgroundTint="#9e9495"
+            android:onClick="True"
+            android:paddingLeft="40dp"
+            android:text="abpsent"
+
+            android:textColor="#ffffff">
+        </Button>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bell"
+        android:background="@drawable/ic_notifications_active_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+         />
+
+    <Button
+        android:id="@+id/logout2"
+        android:background="@drawable/ic_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="logout"
+        />
+</FrameLayout>

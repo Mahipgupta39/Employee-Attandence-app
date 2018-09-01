@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/att"
+            android:icon="@drawable/ic_emp_mm"
+            android:title="Attendence Management" />
+        <item
+            android:id="@+id/emp_m"
+            android:icon="@drawable/ic_emp_men"
+            android:title="Empolyee Management" />
+        <item
+            android:id="@+id/emp_l"
+            android:icon="@drawable/ic_emp_list"
+            android:title="Empolyee List" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_lock_open_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+</menu>
